@@ -23,9 +23,6 @@ for i in range(1, 11, 1):   #usando função range()
     print(f'{i} x {n} = {i*n}')
 '''
 
-
-
-
 #exercicio 10 tabuadas
 for n in range(1,11,1):
     print(f"\n--- Tabuada do {n} ---\n")
