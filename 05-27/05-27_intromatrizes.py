@@ -21,7 +21,7 @@ for i in range(len(m)): # este len() da matriz retorna o total de linhas
     print() #print vazio pula linha
 
 
-#exercicio de multiplicacao de matrizes
+#exercicio de multiplicacao de matrizes para 10/06
 
 #perguntar linha L e coluna C da matriz A
 #perguntar linha L e coluna C da matriz B
