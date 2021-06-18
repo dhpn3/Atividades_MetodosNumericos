@@ -1,5 +1,5 @@
 import numpy as np #para dar um apelido e n ter que digitar numpy sempre
-
+# www.numpy.org
 
 #python padrão:
 v = [1, 2, 3, 4]
@@ -66,6 +66,6 @@ mnp4 = np.ones((3, 2, 6), dtype=np.int16) #matriz tridimensional preenchida de u
 print(mnp4)
 print(mnp4.dtype.name)
 
-mnp5 = np.empty((4, 8), dtype=np.int64) #matriz tridimensional preenchida de um's, 3x2x6, 3 faces de 2 linhas e 6 colunas
+mnp5 = np.empty((4, 8), dtype=np.int64) #preenchida com sujeira de memória, valores qualquer = empty
 print(mnp5)
 print(mnp5.dtype.name)
