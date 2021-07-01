@@ -22,7 +22,12 @@ for i in range(len(mA)):   # retorna o total de linhas
 
 for i in range(len(mA)):
    for j in range(len(mA[i])):  #len() ou range(0,5,1) 
-      vetSave[i] = sum(mA[i]) #vetor que armazena a soma das linhas advém da função sum(), que no caso está armazenando a soma dos elementos de cada linha da matriz mA.
-    
+      vetSave[i] = round(sum(mA[i]), 2) #vetor que armazena a soma das linhas advém da função sum(), que no caso está armazenando a soma dos elementos de cada linha da matriz mA.
+   
+media = 0
 for n in range(3):
    print(f'soma da linha {n}: {vetSave[n]}')
+   media = media + vetSave[n] #  salvando a soma dos 3 valores na variável 'media' 
+
+print('\nmédia da matriz: ', round(media/15, 2))
+print()
