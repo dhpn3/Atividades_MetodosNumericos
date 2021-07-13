@@ -14,20 +14,20 @@ import csv
 x = [] # criando vetores vazios
 y = []
 
-with open('Exercício 05.csv') as csv_file:  # abrindo com a biblioteca csv
+with open('Exercicio_05.csv') as csv_file:  # abrindo com a biblioteca csv
     csv_reader = csv.reader(csv_file, delimiter=';')    # lendo csv
 
     for linha in csv_reader:
         y.append(float(linha[0]))   # sobrepondo os valores dentro do vetor criado anteriormente
         x.append(float(linha[1]))
 
-graf = plt.axes()
+graf = plt.axes()   # mostra os eixos e centraliza
 graf.spines.left.set_position('center') # centralizando 
 graf.spines.right.set_position('center')
 graf.spines.bottom.set_position('center')
 graf.spines.top.set_position('center')
 
-plt.plot(x, y, label='x² - 4x + 3')
+plt.plot(x, y, color = 'r', label='x² - 4x + 3')
 
 plt.legend()
 plt.xlim(-4, 4)
@@ -35,5 +35,4 @@ plt.ylim(-4, 4)
 plt.title('Manipulação de arquivo CSV')
 plt.ylabel('f(x)', loc='top')
 plt.xlabel('x', loc='right')
-
 plt.show()
