@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 import numpy as np
 
 '''
@@ -10,3 +9,5 @@ import numpy as np
    no intervalo [10, 100) (usando funções NumPy).
    Mostre os 3 vetores.
 '''
+
+# def maior(x, y)
