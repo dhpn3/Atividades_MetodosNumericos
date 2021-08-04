@@ -36,3 +36,5 @@ plt.title('Manipulação de arquivo CSV')
 plt.ylabel('f(x)', loc='top')
 plt.xlabel('x', loc='right')
 plt.show()
+
+# entrar na pasta " cd Atividades_MetodosNumericos", para executar o open()
