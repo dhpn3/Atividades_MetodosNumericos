@@ -19,7 +19,7 @@ def Maior(a, b):
         return b
 
 Maior_comp = np.vectorize(Maior) # Maior_comp é a função que vai permitir a manipulação dos 2 vetores
-vect_a = np.random.randint(10, 100, size = (1,10)) # [low, high) = 100 excluso
+vect_a = np.random.randint(10, 100, size = (1,10)) # [low, up) = 100 excluso
 print("1º vetor: ", vect_a)
 vect_b = np.random.randint(10, 100, size = (1,10))
 print("2º vetor: ", vect_b)

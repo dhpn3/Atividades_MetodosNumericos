@@ -6,7 +6,7 @@ import csv
    x e f(x), e crie uma tabela para a função xˆ2 -4x + 3, com x no intervalo [0, 4] com 100 pontos.
    Salve a planilha no formato CSV.
    Verifique como importar arquivos .csv e plote o gráfico de f(x) 
-   com os dados x e f(x) previamente calculadoa na planilha.
+   com os dados x e f(x) previamente calculados na planilha.
    Opções: usar módulo csv do Python (import csv -> csv.reader) ou 
    função de leitura NumPy (np.loadtxt).
 '''
@@ -18,7 +18,7 @@ with open('Exercicio_05.csv') as csv_file:  # abrindo com a biblioteca csv
     csv_reader = csv.reader(csv_file, delimiter=';')    # lendo csv
 
     for linha in csv_reader:
-        y.append(float(linha[0]))   # sobrepondo os valores dentro do vetor criado anteriormente
+        y.append(float(linha[0]))   # sobrepondo os valores dentro do vetores criados anteriormente
         x.append(float(linha[1]))
 
 graf = plt.axes()   # mostra os eixos e centraliza
