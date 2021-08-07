@@ -27,7 +27,7 @@ for i in range(len(mA)):
 media = 0
 for n in range(3):
    print(f'soma da linha {n}: {vetSave[n]}')
-   media = media + vetSave[n] #  salvando a soma dos 3 valores na variável 'media' 
+   media = media + vetSave[n] #  salvando a soma dos 3 valores na variável 'media'
 
 print('\nmédia da matriz: ', round(media/15, 2))
 print()
