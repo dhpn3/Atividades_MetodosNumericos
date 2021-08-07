@@ -28,6 +28,6 @@ riemann = sum(riemann)
 
 plt.plot(x, y, color = 'black')
 plt.fill_between(x, y, alpha=0.2, color = 'green', hatch='|')
-plt.title(riemann)
+plt.title(f'Área pela Soma de Riemann: {round(riemann, 3)}')
 
 plt.show()
