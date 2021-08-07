@@ -17,6 +17,4 @@ plt.xlabel('Cos(x)')
 plt.ylabel('Sen(x)')
 plt.plot(cos, sen)
 plt.axis("scaled")  # força a mesma escala/proporção (largura x altura)
-""" plt.xlim(-2, 2)
-plt.ylim(-2, 2) """
 plt.show()
