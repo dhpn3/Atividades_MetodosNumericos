@@ -1,5 +1,5 @@
 # Atividades_MetodosNumericos
-## Atividades desenvolvidas em python para a disciplina e Métodos Numéricos - TE327.
+## Atividades desenvolvidas em Python para a disciplina Métodos Numéricos - TE327.
 
 ### Prof: Dr. HENRI FREDERICO EBERSPACHER
 Carga Horária: 60h\
